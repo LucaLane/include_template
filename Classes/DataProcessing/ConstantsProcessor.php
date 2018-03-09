@@ -1,5 +1,5 @@
 <?php
-namespace Lane\IncludeTemplate\DataProcessing;
+namespace LucaLane\IncludeTemplate\DataProcessing;
 use TYPO3\CMS\Core\TypoScript\Parser\TypoScriptParser;
 use TYPO3\CMS\Core\TypoScript\TypoScriptService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
@@ -10,12 +10,12 @@ use TYPO3\CMS\Frontend\ContentObject\DataProcessorInterface;
  * Assign all available typoscript constants for a key to template view, the
  * default key that is used is `page` and the default variable is `constants`.
  *
- * 10 = Cabag\CabagTemplate\DataProcessing\ConstantsProcessor
+ * 10 = LucaLane\IncludeTemplate\DataProcessing\ConstantsProcessor
  *
  *
  * Advanced TypoScript configuration
  *
- * 10 = Cabag\CabagTemplate\DataProcessing\ConstantsProcessor
+ * 10 = LucaLane\IncludeTemplate\DataProcessing\ConstantsProcessor
  * 10 {
  *   key = page
  *   as = constants
