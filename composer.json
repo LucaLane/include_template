@@ -1,5 +1,5 @@
 {
-  "name": "lane/include_template",
+  "name": "LucaLane/include-template",
   "description": "Basic extension which acts as interface for the template folder.",
   "version": "2.0.1",
   "type": "typo3-cms-extension",
@@ -16,11 +16,11 @@
   ],
   "replace": {
     "include_template": "*",
-    "lane/include_template": "self.version"
+    "LucaLane/include_template": "self.version"
   },
   "autoload": {
     "psr-4": {
-      "Lane\\IncludeTemplate\\": "Classes"
+      "LucaLane\\IncludeTemplate\\": "Classes"
     }
   }
 }
