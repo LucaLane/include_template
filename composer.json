@@ -1,5 +1,5 @@
 {
-  "name": "Lane/include_template",
+  "name": "lane/include_template",
   "description": "Basic extension which acts as interface for the template folder.",
   "version": "2.0.1",
   "type": "typo3-cms-extension",
@@ -15,12 +15,8 @@
     }
   ],
   "replace": {
-    "cabag_template": "*",
-    "cabag/cabag_template": "self.version"
-  },
-  "require": {
-    "typo3/cms-core": "^8.7.0 || ^9.0",
-    "typo3/cms-rte-ckeditor": "^8.7.0 || ^9.0"
+    "include_template": "*",
+    "lane/include_template": "self.version"
   },
   "autoload": {
     "psr-4": {
