@@ -1,0 +1,30 @@
+{
+  "name": "Lane/include_template",
+  "description": "Basic extension which acts as interface for the template folder.",
+  "version": "2.0.1",
+  "type": "typo3-cms-extension",
+  "license": ["GPL-2.0-or-later"],
+  "authors": [
+    {
+      "name": "Luca Aebischer",
+      "role": "Project Owner"
+    },
+    {
+      "name": "Luca Aebischer",
+      "role": "Developer"
+    }
+  ],
+  "replace": {
+    "cabag_template": "*",
+    "cabag/cabag_template": "self.version"
+  },
+  "require": {
+    "typo3/cms-core": "^8.7.0 || ^9.0",
+    "typo3/cms-rte-ckeditor": "^8.7.0 || ^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lane\\IncludeTemplate\\": "Classes"
+    }
+  }
+}
